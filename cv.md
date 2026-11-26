@@ -9,6 +9,7 @@ I am a Quality Assurance Engineer with 7+ years of software testing experience i
 - Location: Mexico City, Mexico
 - LinkedIn: [linkedin.com/in/gerardo-luna-ventura-318562178](https://www.linkedin.com/in/gerardo-luna-ventura-318562178/)
 - Website: [gerardolunaventura.github.io/cv_gerard](https://gerardolunaventura.github.io/cv_gerard/)
+- Visual CV in English: [View the English CV page](https://gerardolunaventura.github.io/cv_gerard/en.html)
 
 ## Work experience
 

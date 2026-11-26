@@ -7,6 +7,7 @@ Gerardo works across functional, regression, integration, acceptance, mobile, pe
 ## CV
 
 - [English CV in Markdown](https://gerardolunaventura.github.io/cv_gerard/cv.md): Structured resume and work history.
+- [English CV web page](https://gerardolunaventura.github.io/cv_gerard/en.html): Visually formatted English-language CV.
 - [Visual CV website](https://gerardolunaventura.github.io/cv_gerard/): Public portfolio-style resume.
 - [LinkedIn profile](https://www.linkedin.com/in/gerardo-luna-ventura-318562178/): Professional profile.
 

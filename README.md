@@ -2,6 +2,8 @@
 
 **Live CV:** [gerardolunaventura.github.io/cv_gerard](https://gerardolunaventura.github.io/cv_gerard/)
 
+**English CV page:** [View CV in English](https://gerardolunaventura.github.io/cv_gerard/en.html)
+
 **Machine-readable CV:** [English Markdown resume](https://gerardolunaventura.github.io/cv_gerard/cv.md) · [LLM site index](https://gerardolunaventura.github.io/cv_gerard/llms.txt)
 
 I am a QA Engineer with 7+ years of experience testing financial and insurance software. I work across functional, regression, integration, acceptance, mobile, performance, and automated testing, and I use AI-assisted techniques for test design and automation.
