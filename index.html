@@ -7,7 +7,7 @@
 <meta name="description" content="CV de Gerardo Luna Ventura, Ingeniero de Aseguramiento de Calidad con experiencia en automatización con IA, sector financiero y de seguros.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
     --ink:#101826;
@@ -246,6 +246,79 @@
     a{text-decoration:none; color:#000;}
     .job, .two-col, .projects-grid, .skills-grid{page-break-inside:avoid;}
   }
+  /* Professional, responsive redesign */
+  :root{--ink:#102033;--ink-soft:#24364b;--paper:#f8fafc;--paper-2:#eef3f7;--line:rgba(16,32,51,.12);--line-dark:rgba(255,255,255,.15);--amber:#f4c766;--teal:#087f79;--muted:#607084;--muted-dark:#b4c0cc;--radius:18px;--maxw:1120px}
+  body{background:var(--paper);color:var(--ink);font-family:'DM Sans',sans-serif;line-height:1.65}
+  h1,h2,h3{font-family:'Manrope',sans-serif;letter-spacing:-.035em}
+  .wrap{max-width:var(--maxw);padding:0 32px}
+  header.site-nav{background:rgba(248,250,252,.94);backdrop-filter:blur(14px)}
+  .nav-inner{max-width:var(--maxw);padding:13px 32px}
+  .nav-name{font-size:14px;letter-spacing:0}
+  .nav-links{font-family:'DM Sans',sans-serif;font-weight:600;gap:24px}
+  .btn-print{background:#087f79;border-radius:999px;padding:10px 18px;font-family:'DM Sans',sans-serif;transition:transform .2s,background .2s}
+  .btn-print:hover{background:#066d68;transform:translateY(-1px)}
+  .hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 84% 15%,rgba(20,184,166,.22),transparent 36%),linear-gradient(130deg,#0e1d31 0%,#142b43 65%,#123b48 100%);padding:76px 0 72px}
+  .hero:after{content:"";position:absolute;right:-110px;bottom:-235px;width:480px;height:480px;border:1px solid rgba(255,255,255,.1);border-radius:50%;box-shadow:0 0 0 48px rgba(255,255,255,.025),0 0 0 96px rgba(255,255,255,.02);pointer-events:none}
+  .hero-grid{position:relative;z-index:1;grid-template-columns:minmax(0,1.22fr) minmax(300px,.78fr);gap:clamp(38px,7vw,90px);align-items:center}
+  .eyebrow{font-size:11px;letter-spacing:.16em;font-weight:600}
+  .hero h1{font-size:clamp(2.7rem,6vw,4.5rem);line-height:1.03;font-weight:700;letter-spacing:-.06em}
+  .hero .role{font-family:'DM Sans',sans-serif;font-style:normal;font-weight:600;color:#9fe2d9;font-size:clamp(1.05rem,2vw,1.35rem);line-height:1.4;margin-top:18px}
+  .hero p.tagline{max-width:55ch;color:#d2dde7;font-size:16px;line-height:1.75;margin-top:18px}
+  .contact-chips{gap:9px;margin-top:26px}
+  .chip{font-family:'DM Sans',sans-serif;font-size:13px;background:rgba(255,255,255,.055);border-color:rgba(255,255,255,.18);border-radius:999px;padding:8px 12px;color:#f7fafc}
+  .spotlight-panel{padding:28px 30px 25px;border:1px solid rgba(255,255,255,.17);border-radius:24px;background:linear-gradient(150deg,rgba(255,255,255,.13),rgba(255,255,255,.055));box-shadow:0 24px 70px rgba(0,0,0,.2);backdrop-filter:blur(10px)}
+  .terminal-bar{padding:13px 17px;background:rgba(255,255,255,.045)}
+  .terminal-body{padding:22px 21px;min-height:240px;line-height:1.95}
+  .terminal-body .pass{color:#8de0c8}
+  .terminal-body .prompt{color:#f4c766}
+  section{padding:76px 0}
+  section.alt{background:var(--paper-2)}
+  .section-head{gap:14px;margin-bottom:32px;align-items:center}
+  .section-head .num{color:var(--teal);font-weight:600;font-size:11px}
+  .section-head h2{font-size:clamp(1.65rem,3vw,2.2rem);font-weight:700}
+  .section-rule{background:linear-gradient(90deg,var(--line),transparent)}
+  p.lede{font-size:1.06rem;line-height:1.85;max-width:76ch;color:#33475b}
+  .job{grid-template-columns:220px 1fr;gap:34px;padding:27px 30px;margin:14px 0;border:1px solid rgba(16,32,51,.09);border-radius:18px;background:#fff;box-shadow:0 8px 30px rgba(18,40,64,.045);transition:transform .2s,box-shadow .2s}
+  .job:hover{transform:translateY(-2px);box-shadow:0 14px 36px rgba(18,40,64,.085)}
+  .job:first-child{border-top:1px solid rgba(16,32,51,.09)}
+  .job-meta .period{font-size:11px;color:#65768a;letter-spacing:.04em}
+  .job-meta .company{display:flex;align-items:center;gap:10px;font-size:15px;margin-top:14px;color:#162b40}
+  .job-meta .company:before{content:attr(data-mark);display:grid;place-items:center;flex:0 0 38px;height:38px;border-radius:12px;background:linear-gradient(145deg,#d7f1eb,#eef8f5);color:#087f79;font-weight:700;font-size:11px;letter-spacing:-.04em}
+  .job-meta .company[data-mark="M"]:before{background:linear-gradient(145deg,#e4e9ff,#f4f5ff);color:#4658a9}
+  .job-meta .company[data-mark="Acc"]:before{background:linear-gradient(145deg,#f0e7ff,#f8f3ff);color:#693db0}
+  .job-meta .place{font-size:12px;margin:7px 0 0 48px;color:#728195}
+  .job-title{font-family:'Manrope',sans-serif;font-size:16px;font-weight:700;margin-bottom:12px;color:#13283d}
+  ul.check-list li{padding-left:23px;margin-bottom:10px;font-size:14.5px;line-height:1.7;color:#3d4e60}
+  ul.check-list li:before{content:"";width:7px;height:7px;top:9px;border-radius:50%;background:#0a9789;box-shadow:0 0 0 4px #e1f3f0}
+  #experiencia .section-head[style]{margin-top:52px!important}
+  .projects-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin-top:22px}
+  .proj-card{border:1px solid rgba(16,32,51,.09);border-radius:16px;padding:22px;background:#fff;box-shadow:0 8px 26px rgba(18,40,64,.04);transition:transform .2s,border-color .2s,box-shadow .2s}
+  .proj-card:hover{transform:translateY(-3px);border-color:rgba(8,127,121,.28);box-shadow:0 15px 35px rgba(18,40,64,.08)}
+  section.alt .proj-card{background:#fff}
+  .proj-card .period{font-size:10px;letter-spacing:.06em;color:#718196;text-transform:uppercase}
+  .proj-card h3{font-family:'Manrope',sans-serif;font-size:15px;letter-spacing:-.02em;margin-top:9px;color:#183049}
+  .proj-card p{font-size:13.5px;line-height:1.7;color:#586a7d;margin:9px 0 0}
+  .tag{font-size:10px;border-radius:999px;padding:5px 10px;background:#eaf0f6;color:#30445a}
+  .tag.alt-tag{background:#e0f3ef;color:#08776f}
+  .skills-grid{gap:16px;margin-top:26px}
+  .skill-card{border:1px solid rgba(16,32,51,.09);border-radius:17px;padding:23px;background:#fff;box-shadow:0 8px 26px rgba(18,40,64,.04)}
+  .skill-card h3{font-family:'DM Sans',sans-serif;font-size:11px;letter-spacing:.11em;color:#087f79;margin-bottom:15px}
+  .pill-row{gap:7px}
+  .pill{font-size:12px;border-color:#e0e7ed;border-radius:999px;padding:6px 10px;background:#f7f9fb;color:#34495e}
+  .two-col{gap:18px}
+  .item-block{margin:0 0 15px;padding:19px 21px;background:#fff;border:1px solid rgba(16,32,51,.08);border-radius:15px}
+  .item-block .period{font-size:10px;letter-spacing:.05em;color:#087f79}
+  .item-block h3{font-family:'Manrope',sans-serif;font-size:15px;letter-spacing:-.02em;margin-top:6px;color:#20374d}
+  .item-block .org{font-size:13px;color:#647589;margin-top:5px}
+  .cred{font-size:10.5px;color:#647589;margin-top:6px}
+  footer{background:linear-gradient(130deg,#0e1d31,#123b48);padding:62px 0 32px}
+  footer h2{font-size:clamp(1.8rem,3.4vw,2.7rem);max-width:16ch;line-height:1.15;letter-spacing:-.04em}
+  .footer-links a{font-family:'DM Sans',sans-serif;font-size:14px}
+  .fine-print{font-size:10px}
+  :focus-visible{outline:3px solid #2bb8a7;outline-offset:4px}
+  @media(max-width:860px){.hero-grid{grid-template-columns:minmax(0,1fr) minmax(250px,.75fr);gap:30px}.job{grid-template-columns:175px 1fr;gap:22px}.projects-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media(max-width:700px){.wrap{padding:0 21px}.nav-inner{padding:12px 21px}.nav-links{display:none}.nav-toggle{display:none}.hero{padding:56px 0 52px}.hero-grid{grid-template-columns:1fr;gap:32px}.terminal{max-width:500px}.job{grid-template-columns:1fr;gap:12px;padding:22px 20px}.job-meta .company{margin-top:7px}.job-meta .place{margin-left:48px}.projects-grid,.skills-grid,.two-col{grid-template-columns:1fr}section{padding:58px 0}.section-head{margin-bottom:24px}.contact-chips .chip{font-size:12px}}
+  @media print{header.site-nav,.btn-print{display:none!important}body{background:#fff;font-size:11px}.hero{background:#fff!important;color:#102033!important;padding:10px 0 18px}.hero:after,.terminal,.spotlight-panel{display:none}.hero h1,.hero .role,.eyebrow,.hero p.tagline{color:#102033!important}.hero-grid{grid-template-columns:1fr}.chip{color:#102033!important;border-color:#ccd4dc;background:#fff}section,section.alt{padding:20px 0;background:#fff}.job,.proj-card,.skill-card,.item-block{box-shadow:none;break-inside:avoid}.job{grid-template-columns:155px 1fr;padding:12px;margin:8px 0}.projects-grid{grid-template-columns:repeat(2,1fr);gap:8px}.proj-card{padding:12px}.skills-grid{gap:8px}.skill-card,.item-block{padding:12px}footer{background:#fff;color:#102033;padding:20px 0}footer h2{color:#102033}footer .eyebrow,footer .footer-links a{color:#102033!important}.fine-print{color:#526579;border-color:#ccd4dc}}
 </style>
 </head>
 <body>
@@ -283,15 +356,15 @@
       </div>
     </div>
 
-    <div class="terminal" aria-hidden="false">
-      <div class="terminal-bar">
-        <span style="background:#E5605A"></span><span style="background:#E5B95A"></span><span style="background:#57C08A"></span>
-        <span class="t-label">qa_profile_check.sh — zsh</span>
-      </div>
-      <div class="terminal-body">
-        <div id="term-lines"></div>
-      </div>
-    </div>
+    <aside class="spotlight-panel" aria-label="Resumen profesional">
+      <div class="spotlight-label"><span class="status-dot"></span> QA · AUTOMATIZACIÓN · IA</div>
+      <div class="spotlight-years">7<span>+</span></div>
+      <p class="spotlight-caption">años en calidad de software</p>
+      <div class="spotlight-divider"></div>
+      <div class="focus-row"><span>01</span><div><strong>Finanzas y seguros</strong><small>Sistemas críticos y procesos de negocio</small></div></div>
+      <div class="focus-row"><span>02</span><div><strong>Web, móvil y APIs</strong><small>Pruebas manuales, automatizadas y de rendimiento</small></div></div>
+      <div class="focus-row"><span>03</span><div><strong>Pruebas potenciadas por IA</strong><small>Diseño de casos, análisis de defectos y automatización</small></div></div>
+    </aside>
   </div>
 </section>
 
@@ -324,7 +397,7 @@
     <div class="job">
       <div class="job-meta">
         <div class="period">11/2022 — Presente</div>
-        <div class="company">Aplazo</div>
+        <div class="company" data-mark="A">Aplazo</div>
         <div class="place">CDMX (Remoto)</div>
       </div>
       <div>
@@ -342,7 +415,7 @@
     <div class="job">
       <div class="job-meta">
         <div class="period">12/2021 — 11/2022</div>
-        <div class="company">MTP International</div>
+        <div class="company" data-mark="M">MTP International</div>
         <div class="place">CDMX, México</div>
       </div>
       <div>
@@ -359,7 +432,7 @@
     <div class="job">
       <div class="job-meta">
         <div class="period">10/2018 — 12/2020</div>
-        <div class="company">Accenture</div>
+        <div class="company" data-mark="Acc">Accenture</div>
         <div class="place">CDMX, México</div>
       </div>
       <div>
@@ -434,7 +507,7 @@
       <span class="section-rule"></span>
     </div>
     <p class="lede" style="margin-bottom:8px;">
-      Lista de herramientas que manejo.
+      Estas son las herramientas y tecnologías que utilizo en mis proyectos de calidad.
     </p>
     <div class="skills-grid">
       <div class="skill-card">
@@ -549,64 +622,10 @@
     </div>
     <div class="fine-print">
       <span>Gustavo A. Madero, CDMX, México</span>
-      <span>Última actualización: 2026</span>
+      <span>Actualizado en 2026</span>
     </div>
   </div>
 </footer>
-
-<script>
-  // Typing effect for the terminal signature element
-  const lines = [
-    { text: "$ ./qa_profile_check.sh --candidate \\"Gerardo Luna Ventura\\"", type: "prompt" },
-    { text: "" },
-    { text: "✓ +7 años de experiencia en QA .......... PASS", type: "pass" },
-    { text: "✓ Automatización con IA .................. PASS", type: "pass" },
-    { text: "✓ Metodologías Agile / Scrum ............. PASS", type: "pass" },
-    { text: "✓ Sector financiero y seguros ............ PASS", type: "pass" },
-    { text: "" },
-    { text: "───────────────────────────────────────────", type: "dim" },
-    { text: "RESULT: 4 passed, 0 failed", type: "pass" },
-    { text: "STATUS: READY FOR HIRE", type: "pass" },
-  ];
-
-  const target = document.getElementById('term-lines');
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  function renderStatic(){
-    target.innerHTML = lines.map(l => {
-      const cls = l.type === 'pass' ? 'pass' : (l.type === 'prompt' ? 'prompt' : (l.type === 'dim' ? 'dim' : ''));
-      return `<div class="${cls}">${l.text || '&nbsp;'}</div>`;
-    }).join('');
-  }
-
-  if (reduceMotion) {
-    renderStatic();
-  } else {
-    let li = 0;
-    function typeLine(){
-      if (li >= lines.length) return;
-      const line = lines[li];
-      const div = document.createElement('div');
-      div.className = line.type === 'pass' ? 'pass' : (line.type === 'prompt' ? 'prompt' : (line.type === 'dim' ? 'dim' : ''));
-      target.appendChild(div);
-      let ci = 0;
-      const speed = line.type === 'prompt' ? 22 : 6;
-      function typeChar(){
-        if (ci <= line.text.length){
-          div.innerHTML = (line.text.slice(0, ci) || '&nbsp;') + '<span class="cursor"></span>';
-          ci++;
-          setTimeout(typeChar, speed);
-        } else {
-          div.innerHTML = line.text || '&nbsp;';
-          li++;
-          setTimeout(typeLine, line.text ? 90 : 40);
-        }
-      }
-      typeChar();
-    }
-    typeLine();
-  }
-</script>
 
 </body>
 </html>
