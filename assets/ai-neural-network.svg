@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 360" role="img" aria-label="Ilustración abstracta de una red neuronal">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#5ef0d0" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#9a83ff" stop-opacity=".8"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#8b7bff" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#8b7bff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="250" cy="180" r="164" fill="url(#glow)"/>
+  <g fill="none" stroke="url(#line)" stroke-width="1.5" opacity=".55">
+    <path d="M60 78 164 54 251 94 354 48 443 92M60 78 143 151 251 94 335 161 443 92M60 78 97 263 143 151 196 286 251 94 275 273 335 161 402 288 443 92M97 263 196 286 275 273 402 288"/>
+    <path d="M164 54 143 151 196 286M354 48 335 161 275 273M143 151 275 273M251 94 402 288" opacity=".45"/>
+  </g>
+  <g fill="#142c50" stroke="#64efd5" stroke-width="2">
+    <circle cx="60" cy="78" r="6"/><circle cx="164" cy="54" r="5"/><circle cx="251" cy="94" r="8"/>
+    <circle cx="354" cy="48" r="5"/><circle cx="443" cy="92" r="6"/><circle cx="143" cy="151" r="7"/>
+    <circle cx="335" cy="161" r="7"/><circle cx="97" cy="263" r="5"/><circle cx="196" cy="286" r="6"/>
+    <circle cx="275" cy="273" r="8"/><circle cx="402" cy="288" r="5"/>
+  </g>
+  <circle cx="251" cy="94" r="3" fill="#b2fff0"/><circle cx="275" cy="273" r="3" fill="#d5caff"/>
+</svg>

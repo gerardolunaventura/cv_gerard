@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gerardolunaventura.github.io/cv_gerard/sitemap.xml

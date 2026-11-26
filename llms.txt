@@ -1,0 +1,15 @@
+# Gerardo Luna Ventura
+
+> QA Engineer and AI-Powered Test Automation specialist based in Mexico City, with 7+ years of experience in financial and insurance software testing.
+
+Gerardo works across functional, regression, integration, acceptance, mobile, performance, and automated testing. His experience includes Aplazo, MTP International, and Accenture. His skills include Selenium WebDriver, Playwright, Appium, Postman, Bruno, C#, AWS, and AI-assisted QA.
+
+## CV
+
+- [English CV in Markdown](https://gerardolunaventura.github.io/cv_gerard/cv.md): Structured resume and work history.
+- [Visual CV website](https://gerardolunaventura.github.io/cv_gerard/): Public portfolio-style resume.
+- [LinkedIn profile](https://www.linkedin.com/in/gerardo-luna-ventura-318562178/): Professional profile.
+
+## Contact
+
+- [Email Gerardo](mailto:thegluna99@gmail.com)
